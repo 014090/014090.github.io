@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="css/craftyslide.css" />
+
+<title>XTIRES</title>
+<style type="text/css">
+
+body {
+	background-color: #000;
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+html, body {height:100%;}
+
+
+#topofixo{
+	position:fixed;
+    z-index: 1;
+	top:0;
+	float:left;
+	width:100%;
+	background-color:#FFF;
+	height:100px;
+	text-align: left;
+	
+}
+#topodireita{
+	position:fixed;
+	right:0px;
+	width:55%;
+	background-color:#67bf40;
+	height:125px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+#corpo{
+	top:350px;
+	width:100%
+	height:600px;
+    z-index: -1;
+}
+#roda {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	background-color:#5db14a;
+	height:95px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+    z-index: 1;
+}
+#roda2{
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	background-color:#5db14a;
+	height:40px;
+    z-index: -1;
+}
+a:link {
+	color:#000;
+	text-decoration: none;
+}
+a:visited {		
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: underline;
+	color:#000;
+}
+a:active {
+	text-decoration: none;
+	color: #CCC;
+	font-family: "Courier New", Courier, monospace;
+}
+</style>
+</head>
+
+<body>
+<div id="topofixo"> 
+<table height="100%" "width="100%" border="0" align="center" cellspacing="0">
+  <tr>
+     <td width="15%" align="left" valign="top"><h5><a href="sobre.html" target="_self">SOBRE</a></h5></td>
+     <td width="15%" align="left" valign="top"><a href="shop.html" target="_self"><h5>ENCOMENDAS</h5></a></td>
+    <td width="40%" align="center" valign="top"><a href="http://xtires.ind.br"><img src="images/xtireslogo2.png" width="434" height="132"></a></td>
+      <td width="30%" align="center" valign="top"><a href="plano.html"><h5>PLANO DE NEGÓCIOS</h5></a></td>
+  </tr>
+</table>
+</div>
+
+<div class="content">
+    <center><div id="slideshow">
+        <ul>
+          <li>
+            <img src="images/layou.png" height="100%" alt="" title="Layout" />
+          </li>
+          
+          <li>
+            <img src="images/CPD.png" height="100%" alt="" title="CPD" />
+          </li>
+          
+          <li>           
+            <img src="images/swot.png" height="100%" alt="" title="SWOT" />
+          </li>
+          
+          <li>           
+            <img src="images/organo.png" height="100%" alt="" title="Organograma XTires" />
+          </li>
+                                 
+        </ul>
+      </div></center>
+      
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+      <script src="js/craftyslide.min.js"></script>
+      
+      <script>
+        $("#slideshow").craftyslide();
+      </script> 
+    
+    <br>
+     </div>
+
+
+<div id="roda"><table width="90%" border="0" align="left" cellspacing="10">
+  <tr>
+     <td width="15%" align="right" valign="middle"><img src="images/telefone.png"   width="25%" longdesc="(00) 0000-000"/></td>
+    <td width="15%" align="left" valign="middle"><h2>(00) 0000-0000</h2></td>
+    <td width="15%" align="right" valign="middle"><img src="images/mail.png"   width="25%" longdesc="contato@xtires.com.br"/></td>
+    <td width="12%" align="left" valign="middle"><h2>contato@xtires.com.br</h2></td>
+    <td width="12%" align="right" valign="middle"><img src="images/local.png"   width="30%" longdesc="Rua Bolivar Pedrotti Melgare, 580"/></td>
+    <td width="16%" align="left" valign="top"><h2>Rua Bolivar Pedrotti Melgare, 580</h2></td>	
+  </tr>
+  
+  </tr>
+</table>
+</div>
+</body>
+</html>
