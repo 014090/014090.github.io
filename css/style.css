@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+h6{
+	text-align:center;
+	font-size:22px;
+	font-style:italic;
+	font-weight:bold;
+	color:#000;
+	margin: 0px 0;
+
+}
+
+body{
+font-family: Arial, Verdana, Tahoma, Sans-Serif;
+color: #333333;
+font-size: 12px;
+margin: 0;
+padding: 0;
+color:#000;
+}
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+
+a img { 
+	border: none;
+}a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: underline;
+	color: #006600;
+}
+a:active {
+	text-decoration: none;
+	color: #000000;
+}
+.container {
+	width: 960px;
+	background-color: #FFF;
+	border-style:double;
+	border-width:thin;
+	opacity: 0.7;
+}
+
+.content {
+	padding-top:150px;
+}
+
+
+.content2 {
+	padding-top:25px;
+	padding-bottom:50px;
+}
+
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+p{
+line-height: 20px;
+color:#FFF;
+text-align:justify;
+text-indent:40px;
+padding-left:10px;
+padding-right:10px;
+margin: 0px 0;
+}
+h1{
+	font-family:"Courier New", Courier, monospace;
+font-size: 28px;
+color:#000;
+text-indent: 40px;
+}
+h2{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 20px;
+color:#FFF;
+text-align:center;
+font-style:oblique;
+}
+h3{
+font-size:24px;
+color:#FFF;
+text-align:center;
+}
+h4{
+font-size:18px;
+color:#FFF;
+text-align:center;
+}
+h5{
+	font-family:"Courier New", Courier, monospace;
+	font-style:italic;
+font-size: 28px;
+color:#000;
+}
+
+#navBar {
+	table-layout: fixed;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	background:#FFF;
+}
+
+#navBar a {
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+
+#navBar a:hover {
+	background:#FFF;
+	text-decoration: underline;
+	color: #006600;
+}
+
+#navBar a.selected {
+	color: #000;
+	background-size:auto;
+	background:#99F57A;
+	padding:10px;
+	text-decoration:none;
+}
